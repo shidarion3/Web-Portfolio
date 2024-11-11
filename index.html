@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Portfolio Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="all.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Bars Animation -->
+    <div class="bars-wrapper">
+        <div class="bar" style="--i: 6"></div>
+        <div class="bar" style="--i: 5"></div>
+        <div class="bar" style="--i: 4"></div>
+        <div class="bar" style="--i: 3"></div>
+        <div class="bar" style="--i: 2"></div>
+        <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!-- Home Section -->
+<section id="home" class="main section">
+        <div class="main-info">
+            <h1>Hi! I'm Tyron</h1>
+            <h2>I'm a <span style="--i: 4" data-text="Web Developer">Web Developer</span>
+                <span style="--i: 3" data-text="Novice Programmer">Novice Programmer</span>
+                <span style="--i: 2" data-text="Youtuber">Youtuber</span>
+                <span style="--i: 1" data-text="CS Student">CS Student</span>
+            </h2>
+            <p>
+              I’m Tyron Comedido Bechayda, a web developer with a passion for creating user-friendly websites and applications. 
+              I specialize in front-end development, but I'm also expanding my skills in back-end technologies. 
+
+            </p>
+            <div class="btn-wrapper">
+                <button class="btn">Download CV</button>
+                <div class="socials">
+                    <a href="https://www.instagram.com/imtyrrrron/" target="_blank"><i class="fab fa-instagram  "></i></a>
+                    <a href="https://github.com/shidarion3" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/bechayda.tyron" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-img">
+            <div class="image-wrapper">
+                <div class="image">
+                    <img src="img/profileone.jpg" alt="Profile Image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+ <!-- About Section -->
+<section id="about" class="section">
+    <h2>About</h2>
+    <div class="about-container">
+        <div class="about-text">
+            <h3>Motivation</h3>
+            <p class="bio">             
+              From a young age, I’ve always been fascinated by how technology works. I remember being amazed by the apps and games I used every day, wondering how they were made and how they could do such incredible things. </p>
+              <p class="bio"> Over time, I realized that programming was the key to creating these technologies. 
+                              The idea that I could write code to build something that others could use and enjoy inspired me to learn more about programming. </p>
+              I was excited by the possibilities: from creating fun games to solving real-world problems with software. The ability to bring ideas to life through programming has motivated me to dive deeper into this field and pursue it as a career.<br><br>
+            </p> 
+            <h3>Profile</h3>
+            <p class="profile">
+                Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.
+                <br>
+                <h4>Name:</h4>
+                <p>Tyron Comedido Bechayda</p>
+
+                <h4>Email:</h4>
+                <p>tyron.bechayda16@gmail.com</p>    
+
+                <h4>Job:</h4>
+                <p>Freelancer</p>
+
+                <h4>Website:</h4>
+                <p><a href="https://www.kardswebsite.com" target="_blank">`</a></p>
+
+                <h4>Languages Spoken:</h4>
+                <p>English, Tagalog, Bisaya</p>
+
+                <h4>Hit:</h4>
+                <p>Brown Coffee</p> 
+
+                <h4>Miss:</h4>
+                <p>Early Morningsr</p>
+                <br>
+            </p>
+            <h3>Skills and Expertise</h3>
+            <p>As a passionate web developer, I specialize in crafting user-friendly, responsive, and visually appealing websites. My skill set spans both front-end and back-end development, with a focus on creating seamless, interactive experiences.</p>
+
+            <!-- Skills Progress Bars -->
+           
+        </div>
+
+        <div class="about-profile">
+          <h2>Education</h2>
+  <div class="education-container">
+    <div class="education-item">
+      <img src="icons/central.jfif" alt="University Logo" class="education-logo" />
+      <div class="education-details">
+        <h4>Elementary</h4>
+        <p><strong>Kabasalan Central Elementary School</strong></p>
+        <p>2010-2016</p>
+        <p>As an elementary student, I am building a strong foundation in technology through exploring computers and digital tools.</p>
+      </div>
+    </div>
+    <div class="education-line"></div> <!-- Horizontal line separator -->
+    
+    <div class="education-item">
+      <img src="icons/national.jfif" alt="Another University Logo" class="education-logo" />
+      <div class="education-details">
+        <h4>Secondary</h4>
+        <p><strong>Kabasalan National School</strong></p>
+        <p>2016-2022</p>
+        <p>In secondary school, I was introduced to basic concepts technology. This sparked my interest in technology and laid the foundation for understanding logic, sequencing, and simple problem-solving using computers.</p>
+      </div>
+    </div>
+        <div class="education-line"></div> <!-- Horizontal line separator -->
+    
+        <div class="education-item">
+          <img src="icons/wmsu.jfif" alt="Another University Logo" class="education-logo" />
+          <div class="education-details">
+            <h4>Tertiary</h4>
+            <p><strong>Western Mindanano State University ESU Ipil Campus</strong></p>
+            <p>2022-Current</p>
+            <p>At university, I deepened my programming expertise through advanced courses in algorithms, software engineering, and full-stack development to further honing my technical abilities and collaborating on team-based solutions.</p>
+
+           
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<section id="about">
+        <div class="skills-container">
+          <!-- Coding Skills Section -->
+          <div class="skills">
+            <h3>Coding Skills</h3>
+            <div class="skill">
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="javascript"></div>
+              </div>
+              <div class="percentage">42%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">PHP</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="php"></div>
+              </div>
+              <div class="percentage">43%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">HTML + CSS</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="html"></div>
+              </div>
+              <div class="percentage">62%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C++</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="c"></div>
+              </div>
+              <div class="percentage">77%</div>
+            </div>
+          </div>
+      
+          <!-- Design Skills Section -->
+          <div class="skills">
+            <h3>Design Skills</h3>
+            <div class="skill">
+              <div class="skill-name">UI / UX Design</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="ui"></div>
+              </div>
+              <div class="percentage">87%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Web Design</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="html"></div>
+              </div>
+              <div class="percentage">70%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Logo Design</div>
+              <div class="skill-bar">
+                <div class="progress" data-skill="logo"></div>
+              </div>
+              <div class="percentage">37%</div>
+            </div>
+          </div>
+        </div>
+
+</section>
+</section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <h2>Portfolio</h2>
+      <div class="container">
+        <button class="prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="next"><i class="fas fa-chevron-right"></i></button>
+        <div class="slider">
+          <div class="wrapper">
+            <div class="card">
+              <img src="projects/tshirt.jpg" alt="" />
+              <div class="card_content">
+                <h1>T-Shirt Mock-Up</h1>
+                <p>
+                  Visual designs for T-shirt concepts, showcasing creativity and design skills.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://example.com" target="_blank"></a>
+              <img src="projects/welcome1.png" alt="" />
+              <div class="card_content">
+                <h1>Pet Intake Tracker Mobile App</h1>
+                <p>
+                  An app to manage pet care information, from health tracking to appointments, with an intuitive interface.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="projects/scancrop.png" alt="" />
+              <div class="card_content">
+                <h1>QR Code Scanner</h1>
+                <p>
+                  A simple app that scans QR codes to display data instantly, showing mobile app and UI skills.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="projects/library1.jpg" alt="" />
+              <div class="card_content">
+                <h1>Web Library Management </h1>
+                <p>
+                  A web app for organizing books and users with dedicated admin and user views, streamlining library operations.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="projects/sorting.PNG" alt="" />
+              <div class="card_content">
+                <h1>Sorting Visualizer</h1>
+                <p>
+                  An interactive tool that visualizes sorting algorithms, built to simplify learning sorting concepts.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="projects/bank.PNG" alt="" />
+              <div class="card_content">
+                <h1>Simple Banking System in C++</h1>
+                <p>
+                  A basic C++ console app for banking functions, demonstrating core C++ and OOP skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <script src="app.js"></script>
+  </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-container">
+          <!-- Contact Form -->
+          <form id="contact-form" class="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" required placeholder="Last Name/First Name/Middle Name">
+  
+              <label for="email">Email</label>
+              <input type="email" id="email" required placeholder="example@gmail.com">
+  
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="(63) 0123-456-789">
+  
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" required placeholder="Subject">
+  
+              <label for="message">Message</label>
+              <textarea id="message" required placeholder="Concerns"></textarea>
+  
+            
+  
+              <button type="submit" class="btn">Send</button>
+          </form>
+  
+          <!-- Contact Information Container -->
+          <div class="contact-info">
+              <h3>If you'd like to connect, feel free to reach out through my social media links below and information:</h3>
+              <p><strong>Name:</strong> Tyron Comedido Bechayda</p>
+              <p><strong>Email:</strong> tyron.bechayda16@gmail.com</p>
+              <p><strong>Phone:</strong> +6309700434206</p>
+              <p><strong>Address:</strong> Purok B, Lumbayao, Zamboanga Sibugay</p>
+              <p><strong>Socials:</strong></p>
+              <div class="socials">
+                  <a href="https://www.facebook.com/bechayda.tyron" target="_blank" class="socials"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/imtyrrrron/" target="_blank" class="socials"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/shidarion3" target="_blank" class="socials"><i class="fab fa-github"></i></a>
+                </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  
+
+
+    
+</body>
+</html>
